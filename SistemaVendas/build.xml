@@ -47,9 +47,9 @@
 	</target>
 
 	<target name="compile-clean">
-		<delete dir="classes"/>	
-		
+		<delete dir="classes"/>			
 	</target>
+		
 	<target name="test-clean">
 		<delete dir="report"/>
 		<delete file="FAILED"/>
